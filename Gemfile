@@ -34,7 +34,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'devise'
 gem 'faker'
+gem 'omniauth-facebook'
 gem 'paypal-sdk-rest'
+gem 'forest_liana'
 
 
 group :development, :test do

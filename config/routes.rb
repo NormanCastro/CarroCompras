@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
-  	devise_for :users
+
+  mount ForestLiana::Engine => '/forest'
+  	devise_for :users, :controllers => {
+  		:omniauth_callbacks => 'users/omniauth_callbacks'
+  	}
 
 
 	resources :products, only: [:index] do
