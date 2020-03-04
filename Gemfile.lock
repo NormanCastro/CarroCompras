@@ -139,7 +139,7 @@ GEM
       xml-simple
     pg (1.0.0)
     public_suffix (3.0.2)
-    puma (3.11.2)
+    puma (3.12.4)
     rack (2.0.4)
     rack-cors (1.0.2)
     rack-test (0.8.3)
@@ -243,7 +243,7 @@ DEPENDENCIES
   omniauth-facebook
   paypal-sdk-rest
   pg (>= 0.18, < 2.0)
-  puma (~> 3.7)
+  puma (~> 3.12)
   railroady
   rails (~> 5.1.5)
   sass-rails (~> 5.0)
